@@ -230,9 +230,6 @@ footer .social img{
     grid-row: 5/8;
 }
 
-.msg{
-
-}
 
 .card-img, .mountains{
     width: 100%;
@@ -240,6 +237,83 @@ footer .social img{
 
 main section img{
     box-sizing:border-box;
+}
+
+/*Rates & Dates*/
+
+#price-title{
+    text-align: center;
+}
+
+.title {
+    font-family: 'IM Fell DW Pica', 'Monserrat', sans-serif;
+    color: #57B8FF;
+}
+
+.subtitle {
+    font-family: 'IM Fell DW Pica', 'Monserrat', sans-serif;
+    color: #E2FFD1;
+}
+
+.caption{
+    color:#E2FFD1;
+    font-size: 15px;
+}
+
+.trip-title{
+    border: solid 1px 
+}
+
+.trip{
+    padding: 20px;
+    margin: 20px;
+    border: solid 3px #E2FFD1;
+}
+
+.trip-title{
+    text-align: center;
+}
+
+.price{
+    color:#57B8FF;
+    text-align: center;
+    margin: 10px;
+}
+
+.date-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 100px 500px;
+}
+
+.date-list2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 100px 300px 100px;
+}
+
+.available{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 30px;
+}
+
+.dates{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: #E2FFD1;
+}
+
+.site{
+    min-height: 100%;
+    min-width: 100;
+}
+
+.date-list2 p{
+    font-size: 15px;
+    color: white;
+    grid-row: 3/4;
+
 }
 
 @media screen and (max-width: 900px) {
