@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Sacramento&display=swap');
+
+
+body{
+    background-color: #C2A7FA;
+    margin: 0px;
+    padding: 20px 0 0 0;
+    max-width: 100%;
+}
+
+header{
+    background-color: #e587ec;
+    width: 100%;
+    height: 12em;
+    z-index: 999;
+    border-radius: 25px;
+}
+
+h2{
+    font-family: Sacramento, Quicksand, Helvetica;
+    font-size: 70px;
+    text-align: center;
+}
+
+p, ul, h3{
+    font-family: Quicksand, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    margin: 0;
+    border-radius: 35%;
+}
+
+#tal_logo{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    background-color: transparent;
+    padding: 50px;
+    margin: 0 -30px 0 10px;
+}
+
+nav{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding: 0;
+    margin: -45px;
+}
+
+nav a {
+    text-align: center;
+    align-self: center;
+    background-color: #8500FA;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    border-radius: 10px;
+    font-family: Quicksand, Helvetica, sans-serif;
+}
+
+nav a:hover, button:hover, footer a:hover{
+    background-color: #f8deda;
+    color: #428184;
+}
+
+button:hover{
+    transition: box-shadow .3s;
+    box-shadow: 3px 3px 10px #e587ec;
+}
+
+section{
+    justify-content: center;
+    margin: 50px;
+}
+
+.polish{
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    margin: 20px auto;
+    align-self: center;
+    transition: box-shadow 0s;
+    box-shadow: 1px 1px 8px #e587ec;
+}
+
+.one{
+    display: grid;
+    grid-template-rows: 25% 1fr;
+    grid-template-columns: 40% 1fr 1fr 1fr;
+}
+
+.title{
+    margin-top: -25px;
+    grid-column: 1/5;
+    margin-bottom: 10px;
+}
+
+#art{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    max-height: 200px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+}
+
+.text1{
+    min-width: 300px;
+    grid-row: 1/2;
+    grid-column: 1/4;
+    text-align: center;
+}
+
+#choice{
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+    margin-left: 10%;
+}
+
+.text2{
+    min-width: 300px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    text-align: center;
+}
+
+button{
+    height: 75px;
+    width: 300px;
+    font-family: Quicksand, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #8500FA;
+    color:#f8deda;
+    grid-column: 4/5;
+    border: transparent;
+    border-radius: 25px;
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.button2{
+    margin: auto;
+}
+
+.inv{
+    text-align: center;
+}
+
+footer {
+    background-color: #e587ec;
+    color: #000000;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    width: 100%;
+}
+
+footer a{
+    text-align: center;
+    align-self: center;
+    background-color: #8500FA;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Quicksand, Helvetica, sans-serif;
+}
+
+.sm a{
+    background-color: transparent;
+}
+
+.sm img{
+    border-radius: 5px
+}
