@@ -98,6 +98,10 @@ section{
     grid-template-columns: 40% 1fr 1fr 1fr;
 }
 
+.two{
+    margin-top: 80px;
+}
+
 .title{
     margin-top: -25px;
     grid-column: 1/5;
