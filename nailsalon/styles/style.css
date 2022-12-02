@@ -11,9 +11,12 @@ body{
 header{
     background-color: #e587ec;
     width: 100%;
-    height: 12em;
+    height: 9em;
     z-index: 80;
     border-radius: 25px;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
 }
 
 h2{
@@ -96,6 +99,7 @@ section{
     display: grid;
     grid-template-rows: 25% 1fr;
     grid-template-columns: 40% 1fr 1fr 1fr;
+    margin-top: 200px;
 }
 
 .two{

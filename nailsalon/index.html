@@ -63,7 +63,6 @@
         <h3>Do you believe in love at first sight? We do! It will only take you a single manicure session to fall in love with Tallulah.</h3>
         <h3>Book an appointment <a href="aboutus.html">here</a>.</h3>
     </section>
-    <button onclick="topFunction()" id="myBtn" class="topBtn" title="Go to top">Top</button>
   </main>
 
   <footer>
@@ -84,25 +83,6 @@
   </footer>
   </div>
 
-  <script> // Get the button:
-    let mybutton = document.getElementById("myBtn");
-    
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 && document.documentElement.scrollTop < 750) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-    
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-    </script>
+
 </body>
 </html>
