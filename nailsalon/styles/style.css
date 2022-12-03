@@ -237,9 +237,8 @@ footer a{
     margin: 5px;
     text-align: center;
     align-self: auto;
-    justify-self: auto;
-    max-height: 150px;
-    min-height: 150px;
+    justify-self: auto;;
+    height: 170px;
 }
 
 .mission, .work{
