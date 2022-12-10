@@ -53,8 +53,8 @@ ul{
 nav{
     max-width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 100px;
     padding: 0;
     margin: -45px;
 }
@@ -67,7 +67,12 @@ nav a {
     text-decoration: none;
     padding: 35px;
     border-radius: 10px;
+    border: 1px solid #f8deda;
     font-family: Quicksand, Helvetica, sans-serif;
+}
+
+nav a:nth-child(1){
+    border: none;
 }
 
 nav a:hover, button:hover, footer a:hover{
@@ -106,7 +111,7 @@ section{
     margin-top: 75px;
 }
 
-.three{
+.three, .four{
     margin-top: 150px;
 }
 
@@ -237,7 +242,7 @@ footer a{
     margin: 5px;
     text-align: center;
     align-self: auto;
-    justify-self: auto;;
+    justify-self: auto;
     height: 170px;
 }
 
@@ -262,6 +267,67 @@ footer a{
 .work{
     justify-self: end;
 }
+
+.prices{
+    display: grid;
+    grid-template-columns: 20% 30% 40% 10%;
+}
+
+.promo{
+    display: grid;
+    grid-template-columns: 10% 40% 10% 20% 10%;
+    column-gap: 25px;
+    
+}
+
+.french{
+    grid-column: 2/3;
+    align-self: auto;
+    justify-self: auto;
+    margin: 50px 10px;
+}
+
+.cost{
+    text-align: center;
+}
+
+.cost h3{
+    font-size: 2em;;
+}
+
+.cost p{
+    margin: 0px;
+}
+
+.cost :nth-child(odd){
+    margin: 0 0 20px 0;
+    font-weight: 800;
+}
+
+.list{
+    text-align: center;
+    grid-column: 2/3;
+    justify-content: center;
+    align-self: center;
+}
+
+.list ul{
+    font-size: 30px;
+    margin: -20px
+}
+
+li{
+    margin: 10px;
+}
+
+.list p{
+    margin: 50px;
+}
+
+.beige{
+    grid-column: 4/5
+}
+
 
 #myBtn {
     display: none; /* Hidden by default */
@@ -288,12 +354,39 @@ footer a{
     width: 10em;
   }
 
-  @media screen and (max-width: 900px){
-    nav, .one, #art, #choice, .contact, .info, .statements {
+  @media screen and (max-width: 800px){
+    nav, .one, #art, #choice, .contact, .info, .statements, .prices, .promo {
         display: block;
     }
 
+    header{
+        position: absolute;
+    }
+    
+    nav a {
+        display: block;
+        padding: 25px;
+        width: 100%;
+        margin-top: -5px;
+        border: solid 1px #f8deda;
+    }
 
+    .one, .two, .three, .four{
+        margin-top: 400px;
+    }
+
+    .polish, .model, .atwork{
+        width: 350px;
+        height: 350px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    footer p{
+        margin-bottom: 25px; 
+    }
   }
   
 
