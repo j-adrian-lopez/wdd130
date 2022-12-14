@@ -268,16 +268,11 @@ footer a{
     justify-self: end;
 }
 
-.prices{
+.prices, .promo{
+    margin-top: -40px;
     display: grid;
     grid-template-columns: 20% 30% 5% 35% 10%;
-}
-
-.promo{
-    display: grid;
-    grid-template-columns: 10% 40% 10% 20% 10%;
     column-gap: 25px;
-    
 }
 
 .french{
@@ -376,10 +371,10 @@ li{
         margin-top: 400px;
     }
 
-    .polish, .model, .atwork{
-        width: 350px;
-        height: 350px;
+    .beige, .french{
+        margin: auto;
     }
+
 
     footer{
         flex-direction: column;
